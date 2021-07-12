@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252321;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#container {
+    background-color: #f8e47e;
+    margin: auto;
+    border: 1px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+h1 {
+    margin: 15px;
+    text-align: center;
+}
+
+#container input {
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 165px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+button {
+    padding: 10px;
+    margin-left: 225px;
+    margin-bottom: 25px;
+}
+
+#card-1 {
+    width: 350px;
+    height: 75px;
+    border: 1px solid #5edc1f;
+    margin: auto;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5edc1f;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#card-2 {
+    width: 350px;
+    height: 75px;
+    border: 1px solid #00b1d2;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00b1d2;
+    border-radius: 5px;
+    font-size: 30px;
+}
