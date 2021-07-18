@@ -84,3 +84,21 @@ function ChooseWinner() {
         Result.innerText = "Computer Won !!!!!";
     }
 }
+
+document.getElementById("reset").addEventListener("click" , () => {
+    if(humScore == 0 && comScore == 0)
+    {
+        confirm("Game is already resetted !!!!!");
+        UserChoiceDisplay.innerText = "";
+        BotChoiceDisplay.innerText = "";
+    }
+    else {
+        UserChoiceDisplay.innerText = "";
+        BotChoiceDisplay.innerText = "";
+        userScoreDisp.innerText = "";
+        BotScoreDisp.innerText = "";
+        Result.innerText = "";
+        humScore = 0;
+        comScore = 0;
+    }
+})
