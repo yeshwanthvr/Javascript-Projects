@@ -7,7 +7,6 @@
 }
 
 body {
-    background-color: #252321;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -17,11 +16,7 @@ body {
     border: 1px solid black;
     width: 500px;
     height: 450px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    max-width: 500px;
 }
 
 h1 {
